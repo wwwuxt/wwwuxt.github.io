@@ -23,16 +23,24 @@
     var NexT = window.NexT || {};
     var CONFIG = {"hostname":"wwwuxt.com","root":"/","images":"/images","scheme":"Gemini","version":"8.2.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":false,"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"بحث...","empty":"We didn't find any results for the search: ${query}","hits_time":"${hits} results found in ${time} ms","hits":"${hits} results found"}};
   </script>
-<meta property="og:type" content="website">
-<meta property="og:title" content="WWWUXT">
-<meta property="og:url" content="https://wwwuxt.com/archives/2021/index.html">
+<meta name="description" content="需求上传至服务器时需修改远程服务器文件权限">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Python sftp与ftp修改远程文件权限">
+<meta property="og:url" content="https://wwwuxt.com/2017/12/13/python-sftp-ftp-change-file-permissions/index.html">
 <meta property="og:site_name" content="WWWUXT">
+<meta property="og:description" content="需求上传至服务器时需修改远程服务器文件权限">
 <meta property="og:locale">
+<meta property="article:published_time" content="2017-12-12T23:37:46.000Z">
+<meta property="article:modified_time" content="2021-01-03T13:31:35.843Z">
 <meta property="article:author" content="wwwuxt">
+<meta property="article:tag" content="python">
+<meta property="article:tag" content="linux">
+<meta property="article:tag" content="chmod">
+<meta property="article:tag" content="sftp">
 <meta name="twitter:card" content="summary">
 
 
-<link rel="canonical" href="https://wwwuxt.com/archives/2021/">
+<link rel="canonical" href="https://wwwuxt.com/2017/12/13/python-sftp-ftp-change-file-permissions/">
 
 
 <script class="page-configurations">
@@ -40,11 +48,11 @@
   CONFIG.page = {
     sidebar: "",
     isHome : false,
-    isPost : false,
+    isPost : true,
     lang   : 'zh-Hans'
   };
 </script>
-<title>الأرشيف | WWWUXT</title>
+<title>Python sftp与ftp修改远程文件权限 | WWWUXT</title>
   
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-138675453-2"></script>
     <script>
@@ -153,7 +161,7 @@
 
   <aside class="sidebar">
 
-    <div class="sidebar-inner sidebar-overview-active">
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
       <ul class="sidebar-nav">
         <li class="sidebar-nav-toc">
           المحتويات
@@ -166,6 +174,7 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E9%9C%80%E6%B1%82"><span class="nav-number">1.</span> <span class="nav-text">需求</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E8%A7%A3%E5%86%B3"><span class="nav-number">2.</span> <span class="nav-text">解决</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#sftp%EF%BC%9A"><span class="nav-number">2.1.</span> <span class="nav-text">sftp：</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#ftp%EF%BC%9A"><span class="nav-number">2.2.</span> <span class="nav-text">ftp：</span></a></li></ol></li></ol></div>
         </div>
         <!--/noindex-->
 
@@ -224,50 +233,139 @@
 </noscript>
 
 
-    <div class="main-inner archive posts-collapse">
+    <div class="main-inner post posts-expand">
 
 
   
-  
-  
-  <div class="post-block">
-    <div class="post-content">
-      <div class="collection-title">
-        <span class="collection-header">هِم..! 8 مقالاً بالمُجمل. واصل الكتابة.</span>
-      </div>
 
-      
-    <div class="collection-year">
-      <span class="collection-header">2021</span>
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-Hans">
+    <link itemprop="mainEntityOfPage" href="https://wwwuxt.com/2017/12/13/python-sftp-ftp-change-file-permissions/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="wwwuxt">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="WWWUXT">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          Python sftp与ftp修改远程文件权限
+        </h1>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">نُشر في</span>
+
+      <time title="أُنشأ: 2017-12-13 07:37:46" itemprop="dateCreated datePublished" datetime="2017-12-13T07:37:46+08:00">2017-12-13</time>
+    </span>
+      <span class="post-meta-item">
+        <span class="post-meta-item-icon">
+          <i class="far fa-calendar-check"></i>
+        </span>
+        <span class="post-meta-item-text">عُدل في</span>
+        <time title="عُدل: 2021-01-03 21:31:35" itemprop="dateModified" datetime="2021-01-03T21:31:35+08:00">2021-01-03</time>
+      </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">في</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/Code/" itemprop="url" rel="index"><span itemprop="name">Code</span></a>
+        </span>
+    </span>
+
+  
+    <span class="post-meta-item" title="مشاهدات" id="busuanzi_container_page_pv" style="display: none;">
+      <span class="post-meta-item-icon">
+        <i class="far fa-eye"></i>
+      </span>
+      <span class="post-meta-item-text">مشاهدات: </span>
+      <span id="busuanzi_value_page_pv"></span>
+    </span>
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+        <h1 id="需求"><a href="#需求" class="headerlink" title="需求"></a>需求</h1><p>上传至服务器时需修改远程服务器文件权限</p>
+<a id="more"></a>
+<hr>
+<h1 id="解决"><a href="#解决" class="headerlink" title="解决"></a>解决</h1><h2 id="sftp："><a href="#sftp：" class="headerlink" title="sftp："></a>sftp：</h2><p>python paramiko模块提供了chmod函数,mode为0o755表示755，其他同理</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">chmod(self, path, mode)</span><br><span class="line">&#39;&#39;&#39;</span><br><span class="line">Change the mode (permissions) of a file.  The permissions are</span><br><span class="line">unix-style and identical to those used by Python&#39;s &#96;os.chmod&#96;</span><br><span class="line">function.</span><br><span class="line"> </span><br><span class="line">:param str path: path of the file to change the permissions of</span><br><span class="line">:param int mode: new permissions</span><br><span class="line">&#39;&#39;&#39;</span><br></pre></td></tr></table></figure>
+<h2 id="ftp："><a href="#ftp：" class="headerlink" title="ftp："></a>ftp：</h2><p>python ftplib包，提供sendcmd()和putcmd()函数，sendcmd()有返回值</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">sendcmd(self, cmd)</span><br><span class="line"># Send a command and return the response.</span><br><span class="line"></span><br><span class="line">putcmd(self, line)</span><br><span class="line"># Internal: send one command to the server (through putline())</span><br></pre></td></tr></table></figure>
     </div>
 
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-      <div class="post-meta-container">
-        <time itemprop="dateCreated"
-              datetime="2021-01-03T21:31:35+08:00"
-              content="2021-01-03">
-          01-03
-        </time>
+    
+    
+    
+
+    <footer class="post-footer">
+          <div class="followme">
+  <span>مرحباً بك حيثُ أنشر أيضاً</span>
+
+  <div class="social-list">
+
+      <div class="social-item">
+        <a target="_blank" class="social-link" href="/atom.xml">
+          <span class="icon">
+            <i class="fa fa-rss"></i>
+          </span>
+
+          <span class="label">RSS</span>
+        </a>
       </div>
-
-      <div class="post-title">
-          <a class="post-title-link" href="/2021/01/03/hello-world/" itemprop="url">
-            <span itemprop="name">Hello World</span>
-          </a>
-      </div>
-
-      
-    </header>
-  </article>
-
-
-    </div>
   </div>
-  
-  
-  
+</div>
 
+          <div class="post-tags">
+              <a href="/tags/python/" rel="tag"># python</a>
+              <a href="/tags/linux/" rel="tag"># linux</a>
+              <a href="/tags/chmod/" rel="tag"># chmod</a>
+              <a href="/tags/sftp/" rel="tag"># sftp</a>
+          </div>
+
+        
+
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/2017/11/22/python-print-newline/" rel="prev" title="Python遇到'\n'和'\r\n'">
+                  <i class="fa fa-chevron-left"></i> Python遇到'\n'和'\r\n'
+                </a>
+            </div>
+            <div class="post-nav-item">
+                <a href="/2018/06/25/python-print-r/" rel="next" title="python打印换行符\r">
+                  python打印换行符\r <i class="fa fa-chevron-right"></i>
+                </a>
+            </div>
+          </div>
+    </footer>
+  </article>
+</div>
+
+
+
+
+
+
+    <div class="comments gitalk-container"></div>
 
 <script>
   window.addEventListener('tabs:register', () => {
@@ -347,6 +445,25 @@
 
 
 
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk@1.7.0/dist/gitalk.css">
+
+<script>
+NexT.utils.loadComments('.gitalk-container', () => {
+  NexT.utils.getScript('//cdn.jsdelivr.net/npm/gitalk@1.7.0/dist/gitalk.min.js', () => {
+    var gitalk = new Gitalk({
+      clientID    : '1018589e83764cb4eb09',
+      clientSecret: '5e28729fbc934323f1bd5e4995ea62ad17243c6a',
+      repo        : '',
+      owner       : 'wwwuxt',
+      admin       : ['wwwuxt'],
+      id          : '16b08e7330b16fce4fef02a006881ca3',
+        language: '',
+      distractionFreeMode: true
+    });
+    gitalk.render(document.querySelector('.gitalk-container'));
+  }, window.Gitalk);
+});
+</script>
 
 </body>
 </html>

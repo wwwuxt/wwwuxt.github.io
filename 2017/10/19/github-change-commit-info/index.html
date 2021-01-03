@@ -23,18 +23,22 @@
     var NexT = window.NexT || {};
     var CONFIG = {"hostname":"wwwuxt.com","root":"/","images":"/images","scheme":"Gemini","version":"8.2.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":false,"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"بحث...","empty":"We didn't find any results for the search: ${query}","hits_time":"${hits} results found in ${time} ms","hits":"${hits} results found"}};
   </script>
-<meta property="og:type" content="website">
-<meta property="og:title" content="tags">
-<meta property="og:url" content="https://wwwuxt.com/tags/index.html">
+<meta name="description" content="多个git仓库工作，可能需要用不同的作者信息提交，有时候忘记了修改，需要修改log中的作者信息。github给出了以下方法。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="GitHub更改历史commit作者信息">
+<meta property="og:url" content="https://wwwuxt.com/2017/10/19/github-change-commit-info/index.html">
 <meta property="og:site_name" content="WWWUXT">
+<meta property="og:description" content="多个git仓库工作，可能需要用不同的作者信息提交，有时候忘记了修改，需要修改log中的作者信息。github给出了以下方法。">
 <meta property="og:locale">
-<meta property="article:published_time" content="2021-01-03T07:26:38.000Z">
+<meta property="article:published_time" content="2017-10-18T17:14:39.000Z">
 <meta property="article:modified_time" content="2021-01-03T13:31:35.843Z">
 <meta property="article:author" content="wwwuxt">
+<meta property="article:tag" content="github">
+<meta property="article:tag" content="git">
 <meta name="twitter:card" content="summary">
 
 
-<link rel="canonical" href="https://wwwuxt.com/tags/">
+<link rel="canonical" href="https://wwwuxt.com/2017/10/19/github-change-commit-info/">
 
 
 <script class="page-configurations">
@@ -42,12 +46,11 @@
   CONFIG.page = {
     sidebar: "",
     isHome : false,
-    isPost : false,
+    isPost : true,
     lang   : 'zh-Hans'
   };
 </script>
-<title>tags | WWWUXT
-</title>
+<title>GitHub更改历史commit作者信息 | WWWUXT</title>
   
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-138675453-2"></script>
     <script>
@@ -156,7 +159,7 @@
 
   <aside class="sidebar">
 
-    <div class="sidebar-inner sidebar-overview-active">
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
       <ul class="sidebar-nav">
         <li class="sidebar-nav-toc">
           المحتويات
@@ -169,6 +172,7 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E6%AD%A5%E9%AA%A4"><span class="nav-number">1.</span> <span class="nav-text">步骤</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E6%B3%A8%E6%84%8F"><span class="nav-number">2.</span> <span class="nav-text">注意</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%8F%82%E8%80%83"><span class="nav-number">3.</span> <span class="nav-text">参考</span></a></li></ol></div>
         </div>
         <!--/noindex-->
 
@@ -227,36 +231,157 @@
 </noscript>
 
 
-    <div class="main-inner page posts-expand">
+    <div class="main-inner post posts-expand">
+
+
+  
+
+
+<div class="post-block">
   
   
 
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-Hans">
+    <link itemprop="mainEntityOfPage" href="https://wwwuxt.com/2017/10/19/github-change-commit-info/">
 
-    
-    
-    
-    <div class="post-block" lang="zh-Hans"><header class="post-header">
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="wwwuxt">
+      <meta itemprop="description" content="">
+    </span>
 
-<h1 class="post-title" itemprop="name headline">tags
-</h1>
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="WWWUXT">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          GitHub更改历史commit作者信息
+        </h1>
 
-<div class="post-meta-container">
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">نُشر في</span>
+
+      <time title="أُنشأ: 2017-10-19 01:14:39" itemprop="dateCreated datePublished" datetime="2017-10-19T01:14:39+08:00">2017-10-19</time>
+    </span>
+      <span class="post-meta-item">
+        <span class="post-meta-item-icon">
+          <i class="far fa-calendar-check"></i>
+        </span>
+        <span class="post-meta-item-text">عُدل في</span>
+        <time title="عُدل: 2021-01-03 21:31:35" itemprop="dateModified" datetime="2021-01-03T21:31:35+08:00">2021-01-03</time>
+      </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">في</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/Git/" itemprop="url" rel="index"><span itemprop="name">Git</span></a>
+        </span>
+    </span>
+
+  
+    <span class="post-meta-item" title="مشاهدات" id="busuanzi_container_page_pv" style="display: none;">
+      <span class="post-meta-item-icon">
+        <i class="far fa-eye"></i>
+      </span>
+      <span class="post-meta-item-text">مشاهدات: </span>
+      <span id="busuanzi_value_page_pv"></span>
+    </span>
 </div>
 
-</header>
+        </div>
+      </header>
 
-      
-      
-      <div class="post-body">
-          
-      </div>
-      
-      
-      
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+        <p>多个git仓库工作，可能需要用不同的作者信息提交，有时候忘记了修改，需要修改log中的作者信息。github给出了以下方法。</p>
+<a id="more"></a>
+
+<hr>
+<h1 id="步骤"><a href="#步骤" class="headerlink" title="步骤"></a>步骤</h1><ul>
+<li>打开git bash</li>
+<li>创建项目的全新裸仓库</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git clone --bare https:&#x2F;&#x2F;github.com&#x2F;user&#x2F;repo.git</span><br><span class="line">cd repo.git</span><br></pre></td></tr></table></figure>
+<ul>
+<li>复制以下脚本，替换其中信息</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line">#!&#x2F;bin&#x2F;sh</span><br><span class="line"></span><br><span class="line">git filter-branch --env-filter &#39; </span><br><span class="line">OLD_EMAIL&#x3D;&quot;your-old-email@example.com&quot; # 替换</span><br><span class="line">CORRECT_NAME&#x3D;&quot;Your Correct Name&quot; # 替换</span><br><span class="line">CORRECT_EMAIL&#x3D;&quot;your-correct-email@example.com&quot; # 替换</span><br><span class="line">if [ &quot;$GIT_COMMITTER_EMAIL&quot; &#x3D; &quot;$OLD_EMAIL&quot; ]</span><br><span class="line">then</span><br><span class="line">    export GIT_COMMITTER_NAME&#x3D;&quot;$CORRECT_NAME&quot;</span><br><span class="line">    export GIT_COMMITTER_EMAIL&#x3D;&quot;$CORRECT_EMAIL&quot;</span><br><span class="line">fi</span><br><span class="line">if [ &quot;$GIT_AUTHOR_EMAIL&quot; &#x3D; &quot;$OLD_EMAIL&quot; ]</span><br><span class="line">then</span><br><span class="line">    export GIT_AUTHOR_NAME&#x3D;&quot;$CORRECT_NAME&quot;</span><br><span class="line">    export GIT_AUTHOR_EMAIL&#x3D;&quot;$CORRECT_EMAIL&quot;</span><br><span class="line">fi</span><br><span class="line">&#39; --tag-name-filter cat -- --branches --tags</span><br></pre></td></tr></table></figure>
+<ul>
+<li>执行</li>
+<li>查看新git历史有没有错误</li>
+<li>将正确的历史提交到GitHub</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git push --force --tags origin &#39;refs&#x2F;heads&#x2F;*&#39;</span><br></pre></td></tr></table></figure>
+<ul>
+<li>删除临时clone</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">cd ..</span><br><span class="line">rm -rf repo.git</span><br></pre></td></tr></table></figure>
+<hr>
+<h1 id="注意"><a href="#注意" class="headerlink" title="注意"></a>注意</h1><blockquote>
+<p>警告：这种行为对你的 repo 的历史具有破坏性。如果你的 repo 是与他人协同工作的，重写已发布的历史是一种不好的习惯。仅限紧急情况执行该操作。</p>
+</blockquote>
+<blockquote>
+<p>执行完后重新clone新的repo，因为旧的不会修改。</p>
+</blockquote>
+<hr>
+<h1 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h1><p><a target="_blank" rel="noopener" href="https://help.github.com/articles/changing-author-info/">GitHub官方链接</a></p>
+
     </div>
 
     
     
+    
+
+    <footer class="post-footer">
+          <div class="followme">
+  <span>مرحباً بك حيثُ أنشر أيضاً</span>
+
+  <div class="social-list">
+
+      <div class="social-item">
+        <a target="_blank" class="social-link" href="/atom.xml">
+          <span class="icon">
+            <i class="fa fa-rss"></i>
+          </span>
+
+          <span class="label">RSS</span>
+        </a>
+      </div>
+  </div>
+</div>
+
+          <div class="post-tags">
+              <a href="/tags/github/" rel="tag"># github</a>
+              <a href="/tags/git/" rel="tag"># git</a>
+          </div>
+
+        
+
+          <div class="post-nav">
+            <div class="post-nav-item">
+            </div>
+            <div class="post-nav-item">
+                <a href="/2017/11/16/python-isalpha-chinese/" rel="next" title="Python中isalpha()函数判断中文">
+                  Python中isalpha()函数判断中文 <i class="fa fa-chevron-right"></i>
+                </a>
+            </div>
+          </div>
+    </footer>
+  </article>
+</div>
+
+
+
+
 
 
     <div class="comments gitalk-container"></div>
@@ -350,7 +475,7 @@ NexT.utils.loadComments('.gitalk-container', () => {
       repo        : '',
       owner       : 'wwwuxt',
       admin       : ['wwwuxt'],
-      id          : 'f47af1d1eda4d807b02bba32be15120b',
+      id          : '9545cb727fc185a2e69ff7a5d7aeee29',
         language: '',
       distractionFreeMode: true
     });

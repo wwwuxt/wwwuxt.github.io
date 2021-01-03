@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>WWWUXT</title>
+  
+  
+  <link href="https://wwwuxt.com/atom.xml" rel="self"/>
+  
+  <link href="https://wwwuxt.com/"/>
+  <updated>2021-01-03T13:31:35.843Z</updated>
+  <id>https://wwwuxt.com/</id>
+  
+  <author>
+    <name>wwwuxt</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://wwwuxt.com/2021/01/03/hello-world/"/>
+    <id>https://wwwuxt.com/2021/01/03/hello-world/</id>
+    <published>2021-01-03T13:31:35.843Z</published>
+    <updated>2021-01-03T13:31:35.843Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><a id="more"></a><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;a href=&quot;https://hexo.io/docs/troubleshooting.html&quot;&gt;troubleshooting&lt;/a&gt; or you can ask me on &lt;a href=&quot;https://github.com/hexojs/hexo/issues&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;</summary>
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>什么是伪终端？</title>
+    <link href="https://wwwuxt.com/2019/06/27/what-is-pseudo-terminal/"/>
+    <id>https://wwwuxt.com/2019/06/27/what-is-pseudo-terminal/</id>
+    <published>2019-06-27T04:22:23.000Z</published>
+    <updated>2021-01-03T13:31:35.843Z</updated>
+    
+    <content type="html"><![CDATA[<p>ssh -t explain:<br>    Force pseudo-terminal allocation.  This can be used to execute<br>    arbitrary screen-based programs on a remote machine, which can be<br>    very useful, e.g. when implementing menu services.  Multiple -t<br>    options force tty allocation, even if ssh has no local tty.</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;ssh -t explain:&lt;br&gt;    Force pseudo-terminal allocation.  This can be used to execute&lt;br&gt;    arbitrary screen-based programs on a remote </summary>
+      
+    
+    
+    
+    <category term="Linux" scheme="https://wwwuxt.com/categories/Linux/"/>
+    
+    
+    <category term="ssh" scheme="https://wwwuxt.com/tags/ssh/"/>
+    
+    <category term="terminal" scheme="https://wwwuxt.com/tags/terminal/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>[WinError 995] in Quamash</title>
+    <link href="https://wwwuxt.com/2019/06/04/winerror995-in-quamash/"/>
+    <id>https://wwwuxt.com/2019/06/04/winerror995-in-quamash/</id>
+    <published>2019-06-04T02:50:23.000Z</published>
+    <updated>2021-01-03T13:31:35.843Z</updated>
+    
+    <content type="html"><![CDATA[<p>[WinError 995] 导致PyQt5程序闪退。</p><a id="more"></a><h1 id="问题"><a href="#问题" class="headerlink" title="问题"></a>问题</h1><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">QEventLoop</span>(<span class="params">QEventLoop</span>):</span></span><br><span class="line"><span class="string">&#x27;&#x27;&#x27;</span></span><br><span class="line"><span class="string">&#x27;&#x27;&#x27;</span></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">_process_events</span>(<span class="params">self, events</span>):</span></span><br><span class="line">        <span class="string">&quot;&quot;&quot;Process events from proactor.&quot;&quot;&quot;</span></span><br><span class="line">        <span class="keyword">for</span> f, callback, transferred, key, ov <span class="keyword">in</span> events:</span><br><span class="line">            <span class="keyword">try</span>:</span><br><span class="line">                self._logger.debug(<span class="string">&#x27;Invoking event callback &#123;&#125;&#x27;</span>.<span class="built_in">format</span>(callback))</span><br><span class="line">                value = callback(transferred, key, ov)</span><br><span class="line">            <span class="keyword">except</span> OSError <span class="keyword">as</span> e:</span><br><span class="line">                self._logger.warn(<span class="string">&#x27;Event callback failed: &#123;&#125;&#x27;</span>.<span class="built_in">format</span>(e))</span><br><span class="line">                print(f, f.done())</span><br><span class="line">                <span class="keyword">if</span> <span class="keyword">not</span> f.done():</span><br><span class="line">                    f.set_exception(e)</span><br><span class="line">            <span class="keyword">else</span>:</span><br><span class="line">                f.set_result(value)</span><br><span class="line"><span class="string">&#x27;&#x27;&#x27;</span></span><br><span class="line"><span class="string">&#x27;&#x27;&#x27;</span></span><br></pre></td></tr></table></figure><h1 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h1><h1 id="https-github-com-harvimt-quamash-pull-113"><a href="#https-github-com-harvimt-quamash-pull-113" class="headerlink" title="https://github.com/harvimt/quamash/pull/113"></a><a href="https://github.com/harvimt/quamash/pull/113">https://github.com/harvimt/quamash/pull/113</a></h1>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;[WinError 995] 导致PyQt5程序闪退。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Python" scheme="https://wwwuxt.com/categories/Python/"/>
+    
+    
+    <category term="python" scheme="https://wwwuxt.com/tags/python/"/>
+    
+    <category term="PyQt5" scheme="https://wwwuxt.com/tags/PyQt5/"/>
+    
+    <category term="quamash" scheme="https://wwwuxt.com/tags/quamash/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>python打印换行符\r</title>
+    <link href="https://wwwuxt.com/2018/06/25/python-print-r/"/>
+    <id>https://wwwuxt.com/2018/06/25/python-print-r/</id>
+    <published>2018-06-25T10:23:38.000Z</published>
+    <updated>2021-01-03T13:31:35.843Z</updated>
+    
+    <content type="html"><![CDATA[<p>🆒</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&gt;&gt;&gt; print(&#39;aaa\rbbb&#39;)</span><br><span class="line">bbb</span><br></pre></td></tr></table></figure><p>\r之前的内容不会输出，正则匹配出来的内容没有注意到，困扰了好久，debug看了变量内容终于出来了（ps: debug工具真是个好东西）。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;🆒&lt;/p&gt;
+&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;</summary>
+      
+    
+    
+    
+    <category term="Python" scheme="https://wwwuxt.com/categories/Python/"/>
+    
+    
+    <category term="python" scheme="https://wwwuxt.com/tags/python/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Python sftp与ftp修改远程文件权限</title>
+    <link href="https://wwwuxt.com/2017/12/13/python-sftp-ftp-change-file-permissions/"/>
+    <id>https://wwwuxt.com/2017/12/13/python-sftp-ftp-change-file-permissions/</id>
+    <published>2017-12-12T23:37:46.000Z</published>
+    <updated>2021-01-03T13:31:35.843Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="需求"><a href="#需求" class="headerlink" title="需求"></a>需求</h1><p>上传至服务器时需修改远程服务器文件权限</p><a id="more"></a><hr><h1 id="解决"><a href="#解决" class="headerlink" title="解决"></a>解决</h1><h2 id="sftp："><a href="#sftp：" class="headerlink" title="sftp："></a>sftp：</h2><p>python paramiko模块提供了chmod函数,mode为0o755表示755，其他同理</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">chmod(self, path, mode)</span><br><span class="line">&#39;&#39;&#39;</span><br><span class="line">Change the mode (permissions) of a file.  The permissions are</span><br><span class="line">unix-style and identical to those used by Python&#39;s &#96;os.chmod&#96;</span><br><span class="line">function.</span><br><span class="line"> </span><br><span class="line">:param str path: path of the file to change the permissions of</span><br><span class="line">:param int mode: new permissions</span><br><span class="line">&#39;&#39;&#39;</span><br></pre></td></tr></table></figure><h2 id="ftp："><a href="#ftp：" class="headerlink" title="ftp："></a>ftp：</h2><p>python ftplib包，提供sendcmd()和putcmd()函数，sendcmd()有返回值</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">sendcmd(self, cmd)</span><br><span class="line"># Send a command and return the response.</span><br><span class="line"></span><br><span class="line">putcmd(self, line)</span><br><span class="line"># Internal: send one command to the server (through putline())</span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+    <summary type="html">&lt;h1 id=&quot;需求&quot;&gt;&lt;a href=&quot;#需求&quot; class=&quot;headerlink&quot; title=&quot;需求&quot;&gt;&lt;/a&gt;需求&lt;/h1&gt;&lt;p&gt;上传至服务器时需修改远程服务器文件权限&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Code" scheme="https://wwwuxt.com/categories/Code/"/>
+    
+    
+    <category term="python" scheme="https://wwwuxt.com/tags/python/"/>
+    
+    <category term="linux" scheme="https://wwwuxt.com/tags/linux/"/>
+    
+    <category term="chmod" scheme="https://wwwuxt.com/tags/chmod/"/>
+    
+    <category term="sftp" scheme="https://wwwuxt.com/tags/sftp/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Python遇到&#39;\n&#39;和&#39;\r\n&#39;</title>
+    <link href="https://wwwuxt.com/2017/11/22/python-print-newline/"/>
+    <id>https://wwwuxt.com/2017/11/22/python-print-newline/</id>
+    <published>2017-11-22T00:56:58.000Z</published>
+    <updated>2021-01-03T13:31:35.843Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="问题"><a href="#问题" class="headerlink" title="问题"></a>问题</h1><p>Windows和Unix关于换行符的不同造成跨平台问题。</p><a id="more"></a><hr><h1 id="Python解决方法"><a href="#Python解决方法" class="headerlink" title="Python解决方法"></a>Python解决方法</h1><ul><li>二进制读写</li><li>open的时候newline</li></ul><hr><h1 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h1><p><a href="https://www.zhihu.com/question/19751023/answer/19909758">Python换行符问题：\r\n还是\n？ - 龚奇源的回答 - 知乎</a></p>]]></content>
+    
+    
+    <summary type="html">&lt;h1 id=&quot;问题&quot;&gt;&lt;a href=&quot;#问题&quot; class=&quot;headerlink&quot; title=&quot;问题&quot;&gt;&lt;/a&gt;问题&lt;/h1&gt;&lt;p&gt;Windows和Unix关于换行符的不同造成跨平台问题。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Python" scheme="https://wwwuxt.com/categories/Python/"/>
+    
+    
+    <category term="python" scheme="https://wwwuxt.com/tags/python/"/>
+    
+    <category term="linux" scheme="https://wwwuxt.com/tags/linux/"/>
+    
+    <category term="windows" scheme="https://wwwuxt.com/tags/windows/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Python中isalpha()函数判断中文</title>
+    <link href="https://wwwuxt.com/2017/11/16/python-isalpha-chinese/"/>
+    <id>https://wwwuxt.com/2017/11/16/python-isalpha-chinese/</id>
+    <published>2017-11-15T19:11:58.000Z</published>
+    <updated>2021-01-03T13:31:35.843Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="记录"><a href="#记录" class="headerlink" title="记录"></a>记录</h1><p>Python isalpha在utf8编码参数为中文时也会返回True<a id="more"></a></p>]]></content>
+    
+    
+    <summary type="html">&lt;h1 id=&quot;记录&quot;&gt;&lt;a href=&quot;#记录&quot; class=&quot;headerlink&quot; title=&quot;记录&quot;&gt;&lt;/a&gt;记录&lt;/h1&gt;&lt;p&gt;Python isalpha在utf8编码参数为中文时也会返回True</summary>
+    
+    
+    
+    <category term="Python" scheme="https://wwwuxt.com/categories/Python/"/>
+    
+    
+    <category term="python" scheme="https://wwwuxt.com/tags/python/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>GitHub更改历史commit作者信息</title>
+    <link href="https://wwwuxt.com/2017/10/19/github-change-commit-info/"/>
+    <id>https://wwwuxt.com/2017/10/19/github-change-commit-info/</id>
+    <published>2017-10-18T17:14:39.000Z</published>
+    <updated>2021-01-03T13:31:35.843Z</updated>
+    
+    <content type="html"><![CDATA[<p>多个git仓库工作，可能需要用不同的作者信息提交，有时候忘记了修改，需要修改log中的作者信息。github给出了以下方法。</p><a id="more"></a><hr><h1 id="步骤"><a href="#步骤" class="headerlink" title="步骤"></a>步骤</h1><ul><li>打开git bash</li><li>创建项目的全新裸仓库</li></ul><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git clone --bare https:&#x2F;&#x2F;github.com&#x2F;user&#x2F;repo.git</span><br><span class="line">cd repo.git</span><br></pre></td></tr></table></figure><ul><li>复制以下脚本，替换其中信息</li></ul><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line">#!&#x2F;bin&#x2F;sh</span><br><span class="line"></span><br><span class="line">git filter-branch --env-filter &#39; </span><br><span class="line">OLD_EMAIL&#x3D;&quot;your-old-email@example.com&quot; # 替换</span><br><span class="line">CORRECT_NAME&#x3D;&quot;Your Correct Name&quot; # 替换</span><br><span class="line">CORRECT_EMAIL&#x3D;&quot;your-correct-email@example.com&quot; # 替换</span><br><span class="line">if [ &quot;$GIT_COMMITTER_EMAIL&quot; &#x3D; &quot;$OLD_EMAIL&quot; ]</span><br><span class="line">then</span><br><span class="line">    export GIT_COMMITTER_NAME&#x3D;&quot;$CORRECT_NAME&quot;</span><br><span class="line">    export GIT_COMMITTER_EMAIL&#x3D;&quot;$CORRECT_EMAIL&quot;</span><br><span class="line">fi</span><br><span class="line">if [ &quot;$GIT_AUTHOR_EMAIL&quot; &#x3D; &quot;$OLD_EMAIL&quot; ]</span><br><span class="line">then</span><br><span class="line">    export GIT_AUTHOR_NAME&#x3D;&quot;$CORRECT_NAME&quot;</span><br><span class="line">    export GIT_AUTHOR_EMAIL&#x3D;&quot;$CORRECT_EMAIL&quot;</span><br><span class="line">fi</span><br><span class="line">&#39; --tag-name-filter cat -- --branches --tags</span><br></pre></td></tr></table></figure><ul><li>执行</li><li>查看新git历史有没有错误</li><li>将正确的历史提交到GitHub</li></ul><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git push --force --tags origin &#39;refs&#x2F;heads&#x2F;*&#39;</span><br></pre></td></tr></table></figure><ul><li>删除临时clone</li></ul><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">cd ..</span><br><span class="line">rm -rf repo.git</span><br></pre></td></tr></table></figure><hr><h1 id="注意"><a href="#注意" class="headerlink" title="注意"></a>注意</h1><blockquote><p>警告：这种行为对你的 repo 的历史具有破坏性。如果你的 repo 是与他人协同工作的，重写已发布的历史是一种不好的习惯。仅限紧急情况执行该操作。</p></blockquote><blockquote><p>执行完后重新clone新的repo，因为旧的不会修改。</p></blockquote><hr><h1 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h1><p><a href="https://help.github.com/articles/changing-author-info/">GitHub官方链接</a></p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;多个git仓库工作，可能需要用不同的作者信息提交，有时候忘记了修改，需要修改log中的作者信息。github给出了以下方法。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Git" scheme="https://wwwuxt.com/categories/Git/"/>
+    
+    
+    <category term="github" scheme="https://wwwuxt.com/tags/github/"/>
+    
+    <category term="git" scheme="https://wwwuxt.com/tags/git/"/>
+    
+  </entry>
+  
+</feed>
